@@ -23,4 +23,4 @@ for time in range (0,100):
     if checkCode:
         match_count = match_count+1
     percent_error = 100-match_count
-print("The Correctness is:: ",match_count,"%")
+print("The Correctness percentage is:: ",match_count,"%")
