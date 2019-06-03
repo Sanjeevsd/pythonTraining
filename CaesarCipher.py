@@ -11,14 +11,14 @@ def generateRandomString(counter):
     cipherr = CaesarCipher(ConcatenatedString, offset=counter)
     encodedCipher = cipherr.encoded
     owncipher = CaeserCipher.CaeserCipher(ConcatenatedString, counter)
-    print( "The Caesar Function Result::"+cipherr.encoded+" And the written caesar Result::"+owncipher)
+    print( "The Caesar Function Result::"+encodedCipher+" And the written caesar Result::"+owncipher)
     if(encodedCipher==owncipher):
         return True
     else:
         return False
 
 match_count=0
-for time in range (0,100):
+for time in range (0,10):
     checkCode = generateRandomString(time)
     if checkCode:
         match_count = match_count+1
