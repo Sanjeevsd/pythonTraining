@@ -1,13 +1,12 @@
-
-for numbers in range(1,10):
-    Email_input=input("Enter a email to be verified: ")
+for numbers in range(1, 10):
+    Email_input = input("Enter a email to be verified: ")
     First_portion_invalidity = False
     Second_portion_invalidity = False
-    if len(Email_input)>=6:
-        if "@" in Email_input :
-            Splitted_email = Email_input.split("@")
-            First_Portion_Email = Splitted_email[0]
-            Second_Portion_Email = Splitted_email[1]
+    if len(Email_input) >= 6:
+        if "@" in Email_input:
+            split_email = Email_input.split("@")
+            First_Portion_Email = split_email[0]
+            Second_Portion_Email = split_email[1]
             if First_Portion_Email[0].isalpha():
                 for characters in First_Portion_Email:
                     if characters.isalnum():
@@ -32,18 +31,9 @@ for numbers in range(1,10):
                     Second_portion_invalidity = True
                     continue
 
-            if First_portion_invalidity == False and Second_portion_invalidity == False:
+            if not First_portion_invalidity and not Second_portion_invalidity :
                 print("The Email is Valid.")
         else:
             print("The Email Does not contain @ splitter,Hence the Email is invalid email")
     else:
         print("The email is not long enough, Invalid Email")
-
-
-
-
-
-
-
-
-

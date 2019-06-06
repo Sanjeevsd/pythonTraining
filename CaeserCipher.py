@@ -1,5 +1,7 @@
+
+
 def check_length(input_displacement_parent):
-    input_displacement=input_displacement_parent
+    input_displacement = input_displacement_parent
     if input_displacement_parent > 26:
         input_displacement = input_displacement_parent-26
         if input_displacement > 26:
@@ -11,38 +13,37 @@ def check_length(input_displacement_parent):
     return input_displacement
 
 
+def caesar_cipher(input_string, input_displacement):
+    check_length_input_displacement = check_length(input_displacement)
+    final_string = ""
+    coded = ""
+    for characters in input_string:
+        ascii_code = ord(characters)
+        if characters.isupper():
+            coded = uppercase_conversion(ascii_code, check_length_input_displacement)
+        elif characters.islower():
+            coded=lowercase_conversion(ascii_code, check_length_input_displacement)
 
-def CaeserCipher(inputString,inputDisplacement):
-    check_length_input_disp = check_length(inputDisplacement)
-    finalString=""
-    coded=""
-    for characters in inputString:
-        asciicode=ord(characters)
-        if(characters.isupper()):
-           coded= Uppercaseconversion(asciicode,check_length_input_disp)
-        elif(characters.islower()):
-            coded=Lowercaseconversion(asciicode,check_length_input_disp)
-
-        finalString=finalString+chr(coded)
-    return finalString
+        final_string = final_string+chr(coded)
+    return final_string
 
 
-def Uppercaseconversion(AsciiCode,iDisplacement):
-    todisp = AsciiCode + iDisplacement
-    if todisp > 90:
-        todisplace = (todisp - 90)
-        coded = 64 + todisplace
+def uppercase_conversion(ascii_code, i_displacement):
+    to_displace = ascii_code + i_displacement
+    if to_displace > 90:
+        to_displace = (to_displace - 90)
+        coded = 64 + to_displace
     else:
-        coded = todisp
+        coded = to_displace
     return coded
 
 
-def Lowercaseconversion(lascii, ldisplacement):
-    todisp = lascii + ldisplacement
-    if (todisp > 122):
-        tod = todisp - 122
+def lowercase_conversion(l_ascii, l_displacement):
+    to_displace = l_ascii + l_displacement
+    if to_displace > 122:
+        tod = to_displace - 122
         coded = 96 + tod
     else:
-        coded = todisp
-    return  coded
+        coded = to_displace
+    return coded
 
