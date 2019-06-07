@@ -22,9 +22,11 @@ def generate_random_string(counter):  # defining function for generating random 
 
 
 match_count = 0  # initialing variable for counter
-for time in range(0, 10):  # loop for time from 0-10
-    checkCode = generate_random_string(time)  # calling function by passing arguments and assigning it to a variable
+total_values = 0  # initializing value
+for times in range(0, 10):  # loop for times from 0-10
+    checkCode = generate_random_string(times)  # calling function by passing arguments and assigning it to a variable
     if checkCode:  # checking if check code is true or not
-        match_count = match_count + 1  # increasing mtch_count
-    percent_error = 100 - match_count  # assigning percentage error
-print("The Correctness percentage is:: ", match_count, "%")  # printing the result
+        match_count = match_count + 1  # increasing match_count
+    total_values = total_values+1     # adding all the loop values
+percent_error = ((total_values-match_count)/total_values)*100  # assigning percentage error
+print("The Correctness percentage is:: ", 100-percent_error, "%")  # printing the result
