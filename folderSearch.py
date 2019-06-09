@@ -15,8 +15,12 @@ def search_word(file_content, folder_file_name, input_word_capitalized):
         lines_counter = lines_counter + 1
 
 
-def search_folders(input_capitalized):
-    folders = os.listdir()
+def search_folders(input_capitalized,search_directory):
+    if not search_directory.upper() == "N":
+        directory_search=search_directory
+    else:
+        directory_search=os.getcwd()
+    folders = os.listdir(directory_search)
     for folder in folders:
         if os.path.isfile(folder) and folder.endswith(".txt"):
             try:
@@ -27,10 +31,11 @@ def search_folders(input_capitalized):
                 print("exception")
         elif os.path.isdir(folder):
             os.chdir(folder)
-            search_folders(input_capitalized)
+            search_folders(input_capitalized,os.getcwd())
             os.chdir("../")
 
 
 inputSearchWord = input("Enter word to search::")
+inputDirectory = input("Enter the directory to Search:")
 inputSearchWordCapital = inputSearchWord.upper()
-search_folders(inputSearchWordCapital)
+search_folders(inputSearchWordCapital, inputDirectory)
