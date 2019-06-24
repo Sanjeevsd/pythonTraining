@@ -1,0 +1,254 @@
+Ibadan
+
+Kano
+Lagos
+Cape Town
+Durban
+Johannesburg
+Windhoek
+Kinshasa
+Alexandria
+Cairo
+Addis Ababa
+Casablanca
+Dhaka
+Abidjan
+Mombasa
+Nairobi
+Beijing
+Chengdu
+Dongguan
+Guangzhou
+Hangzhou
+Hong Kong
+Shanghai
+Shenzhen
+Tianjin
+Wuhan
+Denpasar
+Jakarta
+Tehrān
+Baghdad
+Fukuoka
+Hiroshima
+Kawasaki
+Kitakyushu
+Kobe
+Kyoto
+Nagoya
+Osaka
+Saitama
+Sapporo
+Sendai
+Tokyo
+Yokohama
+Kuala Lumpur
+Pyongyang
+Karachi
+Lahore
+Manila
+Riyadh
+Singapore
+Busan
+Seoul
+Damascus
+Taipei
+Bangkok
+Phuket
+Ankara
+Istanbul
+İzmir
+Dubai
+Ho Chi Minh City
+Hà Nội
+Adelaide
+Brisbane
+Melbourne
+Perth
+Sydney
+Auckland
+Christchurch
+Manukau
+Wellington
+Vienna
+Minsk
+Brussels
+Bulgaria
+Zagreb
+Prague
+Copenhagen
+Helsinki
+Ajaccio
+Bordeaux
+Calvi
+Lille
+Lyon
+Marseille
+Nice
+Paris
+Toulouse
+Berlin
+Bremen
+Cologne
+Dortmund
+Dresden
+Düsseldorf
+Essen
+Frankfurt
+Hamburg
+Hanover
+Leipzig
+Munich
+Nuremberg
+Stuttgart
+Athens
+Santorini
+Budapest
+Reykjavík
+Dublin
+Milan
+Naples
+Rome
+Torino
+Venice
+Amsterdam
+The Hague
+Oslo
+Warsaw
+Lisbon
+Bucharest
+Moscow
+St Petersburg
+Barcelona
+Madrid
+Santa Cruz de Tenerife
+Santander
+Gothenburg
+Stockholm
+Geneva
+Zurich
+Kharkiv
+Kiev
+England
+Northern Ireland
+Scotland
+Wales
+Calgary
+Edmonton
+Montréal
+Toronto
+Vancouver
+Mexico City
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Buenos Aires
+Brasília
+Rio de Janeiro
+Salvador
+São Paulo
+Santiago
+Bogotá
+Lima
+Caracas
+Maracaibo
+Birmingham
+Blackpool
+Bournemouth
+Bradford
+Brighton
+Bristol
+Cambridge
+Coventry
+Derby
+Exeter
+Falmouth
+Huddersfield
+Ipswich
+Kingston upon Hull
+Leeds
+Leicester
+Liverpool
+London
+Luton
+Manchester
+Middlesbrough
+Newcastle
+Northampton
+Norwich
+Nottingham
+Oxford
+Penzance
+Plymouth
+Portsmouth
+Preston
+Reading
+Salford
+Sheffield
+Sidmouth
+Southend-on-Sea
+St Ives
+Stoke-on-Trent
+Sunderland
+Swindon
+Truro
+Wakefield
+Wolverhampton
+York
+Belfast
+Aberdeen
+Dundee
+Edinburgh
+Glasgow
+Kirkwall
+Cardiff
+Rhyl
+Swansea
